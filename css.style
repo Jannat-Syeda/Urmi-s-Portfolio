@@ -1,0 +1,51 @@
+body {
+  background-color: #000;
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+  padding: 0;
+  color: #fff;
+}
+
+.section-card {
+  background-color: #111;
+  border-radius: 15px;
+  padding: 25px;
+  margin: 30px auto;
+  width: 90%;
+  max-width: 900px;
+  box-shadow: 0 0 25px rgba(255, 255, 255, 0.08);
+  border: 1px solid #333;
+}
+
+.section-card h2 {
+  color: #ff00ff;
+  margin-top: 0;
+  font-size: 28px;
+  text-align: center;
+}
+
+.section-card ul,
+.section-card p {
+  background-color: #1a1a1a;
+  padding: 15px;
+  border-radius: 10px;
+  line-height: 1.6;
+}
+
+.navbar {
+  background-color: #111;
+  padding: 15px;
+  text-align: center;
+  border-bottom: 1px solid #333;
+}
+
+.navbar a {
+  color: #00e6e6;
+  margin: 0 15px;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.navbar a:hover {
+  color: #ff00ff;
+}
