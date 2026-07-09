@@ -1,0 +1,44 @@
+body {
+  font-family: 'Poppins', sans-serif;
+  background: #000;
+  color: white;
+}
+
+.hero {
+  height: 100vh;
+  background: #000;
+  color: white;
+}
+
+.section-title {
+  text-align: center;
+  font-weight: 600;
+  margin-bottom: 30px;
+}
+
+.skill-box {
+  background: #111;
+  padding: 15px;
+  margin: 10px;
+  border-radius: 8px;
+  border: 1px solid #222;
+  color: #fff;
+  transition: 0.3s;
+}
+
+.skill-box:hover {
+  background: #1a1a1a;
+  transform: translateY(-5px);
+}
+
+.exp-card {
+  background: #0d0d0d;
+  border-radius: 10px;
+  border: 1px solid #222;
+  transition: 0.3s;
+}
+
+.exp-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 0 20px rgba(0, 255, 255, 0.3);
+}
